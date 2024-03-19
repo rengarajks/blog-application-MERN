@@ -1,76 +1,54 @@
 import React from 'react'
-
+import LinesEllipsis from 'react-lines-ellipsis'
 function HomeContent() {
   return (
     <div>
         <div>
-        <div className='p-6'>
-            <h3 className='relative  top-[5vh] text-gray-700 font-bold text-7xl text-center ' >Blog<br></br> Application</h3>
-        </div>
+        
 
-        <div className='w-ful bg-green-200'>
-            <img src='screen.jpg' alt='screen' className='h-[70vh] w-full'></img>
-        </div>
+       
         </div>
 
         <div className='grid grid-cols-4 ' >
             {/* Posts */}
-            <div className='col-span-3'>
+            <div className='col-span-3 '>
+
+            <div className='p-6 h-[30vh] flex items-center justify-center'>
+            <h3 className='relative font-serif top-[5vh]  text-maroon-90 font-bold  opacity-70 text-7xl text-center text-white' >Blog<br></br> Application</h3>
+        </div>
 
                 
                 {/* Post */}
                 
-                <div className='grid grid-cols-2 gap-14 m-14 p-4'>
+                <div className='grid grid-cols-3 gap-14 m-14 p-4 '>
 
                 <div className=''>
 
 <img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
 
-<h3 className='text-center m-2'>City Texas</h3>
+<div className='bg-gray-200/50 p-4'>
+<h3 className='text-center m-2 font-bold text-gray-700'>City Texas</h3>
 
 <h1 className='text-3xl font-bold text-center'>New york city</h1>
 
-<h3 className='text-center m-2'>3 hrs ago</h3>
+<h3 className='text-center m-2 font-bold text-gray-700'>3 hrs ago</h3>
 
-<p>
-New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
-</p>
+<LinesEllipsis
+    text='New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
+    '
+    maxLine='3'
+    ellipsis='...'
+    trimRight
+    basedOn='letters'
+  />
+  
 </div>
 
-
-
-<div className=''>
-
-<img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
-
-<h3 className='text-center m-2'>City Texas</h3>
-
-<h1 className='text-3xl font-bold text-center'>New york city</h1>
-
-<h3 className='text-center m-2'>3 hrs ago</h3>
-
-<p>
-New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
-</p>
 </div>
 
 
 
 
-<div className=''>
-
-<img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
-
-<h3 className='text-center m-2'>City Texas</h3>
-
-<h1 className='text-3xl font-bold text-center'>New york city</h1>
-
-<h3 className='text-center m-2'>3 hrs ago</h3>
-
-<p>
-New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
-</p>
-</div>
 
 
 
@@ -79,17 +57,106 @@ New York City comprises 5 boroughs sitting where the Hudson River meets the Atla
 
 <img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
 
-<h3 className='text-center m-2'>City Texas</h3>
+<div className='bg-gray-200/50 p-4'>
+<h3 className='text-center m-2 font-bold text-gray-700'>City Texas</h3>
 
 <h1 className='text-3xl font-bold text-center'>New york city</h1>
 
-<h3 className='text-center m-2'>3 hrs ago</h3>
+<h3 className='text-center m-2 font-bold text-gray-700'>3 hrs ago</h3>
 
-<p>
-New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
-</p>
+<LinesEllipsis
+    text='New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
+    '
+    maxLine='3'
+    ellipsis='...'
+    trimRight
+    basedOn='letters'
+  />
+  
 </div>
 
+</div>
+
+
+
+
+<div className=''>
+
+<img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
+
+<div className='bg-gray-200/50 p-4'>
+<h3 className='text-center m-2 font-bold text-gray-700'>City Texas</h3>
+
+<h1 className='text-3xl font-bold text-center'>New york city</h1>
+
+<h3 className='text-center m-2 font-bold text-gray-700'>3 hrs ago</h3>
+
+<LinesEllipsis
+    text='New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
+    '
+    maxLine='3'
+    ellipsis='...'
+    trimRight
+    basedOn='letters'
+  />
+  
+</div>
+
+</div>
+
+
+
+<div className=''>
+
+<img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
+
+<div className='bg-gray-200/50 p-4'>
+<h3 className='text-center m-2 font-bold text-gray-700'>City Texas</h3>
+
+<h1 className='text-3xl font-bold text-center'>New york city</h1>
+
+<h3 className='text-center m-2 font-bold text-gray-700'>3 hrs ago</h3>
+
+<LinesEllipsis
+    text='New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
+    '
+    maxLine='3'
+    ellipsis='...'
+    trimRight
+    basedOn='letters'
+  />
+  
+</div>
+
+</div>
+
+
+
+
+
+<div className=''>
+
+<img src='https://lh5.googleusercontent.com/p/AF1QipNAG7iptYkmXdRODIfH30UToKMxcwIycF8ou5RI=w540-h312-n-k-no' className='w-full rounded-md'></img>
+
+<div className='bg-gray-200/50 p-4'>
+<h3 className='text-center m-2 font-bold text-gray-700'>City Texas</h3>
+
+<h1 className='text-3xl font-bold text-center'>New york city</h1>
+
+<h3 className='text-center m-2 font-bold text-gray-700'>3 hrs ago</h3>
+
+<LinesEllipsis
+    text='New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
+    '
+    maxLine='3'
+    ellipsis='...'
+    trimRight
+    basedOn='letters'
+  />
+  
+</div>
+
+</div>
 
         
 
@@ -113,7 +180,7 @@ New York City comprises 5 boroughs sitting where the Hudson River meets the Atla
             </div>
 
             {/* About */}
-            <div className='m-6'>
+            <div className='m-16 p-8 bg-gray-200/40'>
                 
                 <div className=' border-b-4'><h3 className='text-center p-3'>About</h3></div>
 
@@ -125,23 +192,25 @@ New York City comprises 5 boroughs sitting where the Hudson River meets the Atla
                 </div>
                 </div>
 
-                <p>Though I'm definitely familiar with professional bios, I can admit they can be challenging. What do I include? What do readers need to know?
-
-As daunting as writing a professional bio can be, professional bios are crucial when applying for jobs, seeking new clients, or networking. A professional bio also gives the world a brief snapshot of you and your professional ideals.</p>
-
+                
              
              {/* Interests */}
              <div className='border-b-4'>
                 
                 <h3 className='text-center font-bold p-4'>Interests</h3>
 
-                <div>
-                </div>
+                
+
+    
 
              </div>
             
             <div>
-                
+            <div className='text-center '>
+                    <ol className=''>
+                        <li>Hi</li>
+                    </ol>
+                </div>
             </div>
 
             </div>

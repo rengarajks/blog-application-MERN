@@ -3,10 +3,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import EmailIcon from '@mui/icons-material/Email';
 import { Avatar } from '@mui/material';
+import {Link} from 'react-router-dom'
 
 function NavBar() {
   return (
-    <div class='flex justify-between '>
+    <div class='fixed flex justify-between items-center p-2 w-full bg-white/60 '>
 
         <div className=''>
           <FacebookIcon/>
@@ -33,7 +34,7 @@ function NavBar() {
           </div>
 
           <div>
-            <span>Logout</span>
+            <Link to={'/login'}><span>Logout</span></Link>
           </div>
         </div>
 

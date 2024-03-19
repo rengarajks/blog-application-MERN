@@ -4,10 +4,9 @@ import HomeContent from '../Components/HomeContent'
 
 function Home() {
   return (
-    <div>
+    <div className='bg-fixed ' style={{ backgroundImage: 'url(login.jpg)' }}>
         <NavBar/>
-        <HomeContent/>
-        
+        <HomeContent/> 
     </div>
   )
 }
